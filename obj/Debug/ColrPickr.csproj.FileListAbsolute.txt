@@ -1,0 +1,10 @@
+C:\Users\Lawrence\source\repos\ColrPickr\bin\Debug\ColrPickr.exe.config
+C:\Users\Lawrence\source\repos\ColrPickr\bin\Debug\ColrPickr.exe
+C:\Users\Lawrence\source\repos\ColrPickr\bin\Debug\ColrPickr.pdb
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.csproj.AssemblyReference.cache
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.frmApp.resources
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.Properties.Resources.resources
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.csproj.GenerateResource.cache
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.csproj.CoreCompileInputs.cache
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.exe
+C:\Users\Lawrence\source\repos\ColrPickr\obj\Debug\ColrPickr.pdb
