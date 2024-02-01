@@ -54,5 +54,17 @@ namespace ColrPickr
             cpc.ColorText();
 
         }
+
+        private void btnPurple_Click(object sender, EventArgs e)
+        {
+            cpc = new ColorPickerClient(new Purple(), lblColor);
+            cpc.ColorText();
+        }
+
+        private void btnYellow_Click(object sender, EventArgs e)
+        {
+            cpc = new ColorPickerClient(new Yellow(), lblColor);
+            cpc.ColorText();
+        }
     }
 }

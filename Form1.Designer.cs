@@ -33,13 +33,16 @@
             this.btnBlue = new System.Windows.Forms.Button();
             this.grpColorBox = new System.Windows.Forms.GroupBox();
             this.lblColor = new System.Windows.Forms.Label();
+            this.btnPurple = new System.Windows.Forms.Button();
+            this.btnYellow = new System.Windows.Forms.Button();
             this.grpColorBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRed
             // 
             this.btnRed.BackColor = System.Drawing.Color.Red;
-            this.btnRed.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRed.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnRed.Location = new System.Drawing.Point(6, 19);
             this.btnRed.Name = "btnRed";
             this.btnRed.Size = new System.Drawing.Size(92, 38);
@@ -51,7 +54,8 @@
             // btnGreen
             // 
             this.btnGreen.BackColor = System.Drawing.Color.Green;
-            this.btnGreen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGreen.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnGreen.Location = new System.Drawing.Point(104, 19);
             this.btnGreen.Name = "btnGreen";
             this.btnGreen.Size = new System.Drawing.Size(93, 38);
@@ -63,7 +67,8 @@
             // btnBlue
             // 
             this.btnBlue.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnBlue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBlue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlue.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnBlue.Location = new System.Drawing.Point(203, 19);
             this.btnBlue.Name = "btnBlue";
             this.btnBlue.Size = new System.Drawing.Size(95, 38);
@@ -74,6 +79,8 @@
             // 
             // grpColorBox
             // 
+            this.grpColorBox.Controls.Add(this.btnYellow);
+            this.grpColorBox.Controls.Add(this.btnPurple);
             this.grpColorBox.Controls.Add(this.btnRed);
             this.grpColorBox.Controls.Add(this.btnBlue);
             this.grpColorBox.Controls.Add(this.btnGreen);
@@ -93,6 +100,31 @@
             this.lblColor.Size = new System.Drawing.Size(190, 73);
             this.lblColor.TabIndex = 4;
             this.lblColor.Text = "Color";
+            // 
+            // btnPurple
+            // 
+            this.btnPurple.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnPurple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPurple.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnPurple.Location = new System.Drawing.Point(7, 64);
+            this.btnPurple.Name = "btnPurple";
+            this.btnPurple.Size = new System.Drawing.Size(91, 35);
+            this.btnPurple.TabIndex = 3;
+            this.btnPurple.Text = "Purple";
+            this.btnPurple.UseVisualStyleBackColor = false;
+            this.btnPurple.Click += new System.EventHandler(this.btnPurple_Click);
+            // 
+            // btnYellow
+            // 
+            this.btnYellow.BackColor = System.Drawing.Color.Yellow;
+            this.btnYellow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYellow.Location = new System.Drawing.Point(104, 64);
+            this.btnYellow.Name = "btnYellow";
+            this.btnYellow.Size = new System.Drawing.Size(93, 35);
+            this.btnYellow.TabIndex = 4;
+            this.btnYellow.Text = "Yellow";
+            this.btnYellow.UseVisualStyleBackColor = false;
+            this.btnYellow.Click += new System.EventHandler(this.btnYellow_Click);
             // 
             // frmApp
             // 
@@ -117,6 +149,8 @@
         private System.Windows.Forms.Button btnBlue;
         private System.Windows.Forms.GroupBox grpColorBox;
         private System.Windows.Forms.Label lblColor;
+        private System.Windows.Forms.Button btnPurple;
+        private System.Windows.Forms.Button btnYellow;
     }
 }
 

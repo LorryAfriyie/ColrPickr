@@ -58,7 +58,9 @@
     <Compile Include="IColorPickerStrategyBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purple.cs" />
     <Compile Include="Red.cs" />
+    <Compile Include="Yellow.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
